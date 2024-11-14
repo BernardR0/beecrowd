@@ -20,7 +20,7 @@ int main ()
    printf("Reajuste ganho: %.2lf\n", reajuste);
    printf("Em percentual: 12 %%\n");
    
-   }  else if(salario >= 800.01 && salario <= 1200.00) {
+   }  else if(salario > 800.00 && salario <= 1200.00) {
    salariototal = salario + salario*0.10;
    reajuste = salario*0.10;
    printf("Novo salario: %.2lf\n", salariototal);
